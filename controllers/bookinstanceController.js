@@ -82,16 +82,20 @@ exports.bookinstance_create_post = (req, res, next) => [
 
 // Display BookInstance delete form on GET.
 exports.bookinstance_delete_get = (req, res, next) =>
+  // Todo: Implement bookinstance delete
   res.send('NOT IMPLEMENTED: BookInstance delete GET');
 
 // Handle BookInstance delete on POST.
 exports.bookinstance_delete_post = (req, res, next) =>
+  // Todo: Implement bookinstance delete
   res.send('NOT IMPLEMENTED: BookInstance delete POST');
 
 // Display BookInstance update form on GET.
 exports.bookinstance_update_get = (req, res, next) =>
+  // Todo: Implement bookinstance update
   res.send('NOT IMPLEMENTED: BookInstance update GET');
 
 // Handle bookinstance update on POST.
 exports.bookinstance_update_post = (req, res, next) =>
+  // Todo: Implement bookinstance update
   res.send('NOT IMPLEMENTED: BookInstance update POST');

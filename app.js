@@ -11,7 +11,7 @@ const usersRouter = require('./routes/users');
 const catalogRouter = require('./routes/catalog');
 
 const mongoose = require('mongoose');
-const mongodb = `mongodb://randylam87:randylam87@ds125673.mlab.com:25673/local_library`
+const mongodb = process.env.MONGODB_URI || `mongodb://randylam87:randylam87@ds125673.mlab.com:25673/local_library`
 
 const app = express();
 
