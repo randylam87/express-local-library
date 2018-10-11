@@ -1,6 +1,21 @@
 branch-defaults:
   master:
-    environment: null
+    environment: ExpressLocallibraryTutorial-env
     group_suffix: null
+environment-defaults:
+  ExpressLocallibraryTutorial-env:
+    branch: null
+    repository: null
 global:
+  application_name: express-locallibrary-tutorial
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-west-1::platform/Node.js running on
+    64bit Amazon Linux/4.5.4
+  default_region: us-west-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
   profile: eb-cli
+  sc: git
+  workspace_type: Application

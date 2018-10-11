@@ -14,7 +14,7 @@ exports.index = (req, res, next) => {
     author_count: callback => Author.countDocuments({}, callback),
     genre_count: callback => Genre.countDocuments({}, callback)
   }, 
-  (error, results) => res.render('index', { title: 'Local Library Home', error: error, data: results }));
+  (error, results) => res.render('index', { title: `Randy and Faiz's Local Library Home`, error: error, data: results }));
 }
 
 
